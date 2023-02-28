@@ -11,5 +11,5 @@ netlifyIdentity.on('login', () => {
 netlifyIdentity.on('logout', () => {
     netlifyIdentity.close();
     window.location.replace('/');
-}); 
+});
 
