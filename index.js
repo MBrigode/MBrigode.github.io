@@ -2,10 +2,13 @@ let app = angular.module("myApp", ["ngRoute"]);
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
-        templateUrl : "index.html"
+        templateUrl : "test.html"
     })
     .when("/1", {
         templateUrl : "landing.html"
+    })
+    .when("/home", {
+        templateUrl : "test.html"
     })
    
 });
