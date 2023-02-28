@@ -10,7 +10,7 @@ app.config(function($routeProvider) {
    
 });
 
-app.controller('efoNI', function ($scope) {
+app.controller('blah', function ($scope) {
     let initUser = netlifyIdentity.currentUser();
     netlifyIdentity.on('init', () => {
         initUser = netlifyIdentity.currentUser();
