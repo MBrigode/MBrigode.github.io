@@ -17,7 +17,7 @@ app.controller('efoNI', function ($scope) {
     });
     netlifyIdentity.on('login', () => {
         if (initUser == null) {
-            window.location.replace('#!loggedIn');
+            window.location.replace('#!1');
         }
         netlifyIdentity.close();
     });
