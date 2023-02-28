@@ -13,3 +13,14 @@ netlifyIdentity.on('logout', () => {
     window.location.replace('/');
 });
 
+let app = angular.module("myApp", ["ngRoute"]);
+app.config(function($routeProvider) {
+    $routeProvider
+    .when("/", {
+        templateUrl : "index.html"
+    })
+    .when("/1", {
+        templateUrl : "landing.html"
+    })
+   
+});
